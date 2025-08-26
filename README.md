@@ -26,6 +26,9 @@ python -m venv .venv
 A small example REST API using Python and Flask. The app lives at `src/main.py` and provides a few simple numeric utilities and endpoints suitable for learning and small demos.
 
 ## Features
+
+![Project Banner](visuals/api_functionality.png)
+
 - GET `/` — returns a simple greeting ("Hello, World!").
 - GET `/armstrong/<int:n>` — returns whether `n` is an Armstrong number.
 - GET `/palindrome/<int:n>` — returns whether `n` is a palindrome (supports ordinary integers, including 4-digit numbers like `1221`).
