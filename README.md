@@ -16,15 +16,6 @@ A small example REST API using Python and Flask. This repository contains a mini
 
 1. Open a cmd prompt and change to the project folder.
 
-2. (Optional) Create and activate a virtual environment if you don't already have one:
-
-```batch
-python -m venv .venv
-.venv\Scripts\activate.bat
-# restAPI (Python + Flask)
-
-A small example REST API using Python and Flask. The app lives at `src/main.py` and provides a few simple numeric utilities and endpoints suitable for learning and small demos.
-
 ## Features
 
 ![Project Banner](visuals/api_functionality.png)
@@ -39,14 +30,6 @@ A small example REST API using Python and Flask. The app lives at `src/main.py` 
 ## Requirements
 - Python 3.8+ recommended. If you use Python 3.13, some wheels may not be available; prefer 3.11 if you run into install problems.
 - See `requirements.txt` for the minimal dependencies to run and test the project.
-
-## Quick start (Windows, cmd.exe)
-
-1. Open a cmd prompt and change to the project folder:
-
-```batch
-cd /d "Z:\Projects\restAPI using python & flask"
-```
 
 2. (Optional) Create and activate a virtual environment:
 
