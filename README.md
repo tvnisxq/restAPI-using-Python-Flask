@@ -25,7 +25,7 @@ A small example REST API using Python and Flask. This repository contains a mini
 - GET `/palindrome/<int:n>` — returns whether `n` is a palindrome (supports ordinary integers, including 4-digit numbers like `1221`).
 - GET `/sum?a=2&b=3` — returns the sum of `a` and `b` (query params).
 - POST `/sum` — accepts JSON `{ "a": <int>, "b": <int> }` and returns the sum.
-- GET `/avg?a=2&b=3` — returns the average of `a` and `b` (query params). (If you want the `/avg` endpoints implemented, enable them in the repo — ask me and I'll add them.)
+- GET `/avg?a=2&b=3` — returns the average of `a` and `b` (query params). 
 
 ## Requirements
 - Python 3.8+ recommended. If you use Python 3.13, some wheels may not be available; prefer 3.11 if you run into install problems.
@@ -97,7 +97,6 @@ from src.main import avg
 print(avg(2, 3))  # 2.5
 ```
 
-If you want `/avg` HTTP endpoints added (GET/POST), tell me and I'll implement them and tests.
 
 ## Testing
 
