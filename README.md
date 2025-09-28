@@ -122,7 +122,4 @@ python -m pytest -q
 
 - Watch for accidental local files named `flask.py` (or folders) that can shadow the real package.
 
-## Development notes
-- Main app file: `src/main.py`.
-- Tests: `tests/test_core.py` (logic) and `tests/test_api.py` (API endpoints).
-- License: see `LICENSE` (MIT).
+
