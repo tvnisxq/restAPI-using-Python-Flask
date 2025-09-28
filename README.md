@@ -109,17 +109,4 @@ python -m pip install -r requirements.txt
 python -m pytest -q
 ```
 
-## Troubleshooting
-
-- ImportError / ModuleNotFoundError on `from flask import ...`:
-	- Ensure you activated the virtualenv and installed the requirements used by the interpreter that will run the app.
-	- Check Flask installation:
-
-		```batch
-		python -m pip show flask
-		python -c "import flask,sys; print(flask.__file__, flask.__version__, sys.executable)"
-		```
-
-- Watch for accidental local files named `flask.py` (or folders) that can shadow the real package.
-
 
